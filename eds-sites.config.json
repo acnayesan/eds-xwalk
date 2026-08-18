@@ -1,0 +1,23 @@
+{
+  "edsOrg": "aemsitestrial",
+  "ghOwner": "acnayesan",
+  "ghRepo": "eds-xwalk",
+  "aemAuthor": "https://author-p153710-e1614654.adobeaemcloud.com",
+  "sitePrefix": "smartwhale38613",
+  "contentRoot": "/content/2026/33/smartwhale38613",
+  "baseDomain": "yourdomain.com",
+  "useCDN": false,
+  "techAccount": "7C433F2267F3F1D60A495FB3@techacct.adobe.com",
+  "adminEmail": "ariel.s.udtohan@accenture.com",
+  "states": [
+    { "name": "Colorado",     "code": "co", "label": "colorado" },
+    { "name": "Michigan",     "code": "mi", "label": "michigan" },
+    { "name": "Minnesota",    "code": "mn", "label": "minnesota" },
+    { "name": "New Mexico",   "code": "nm", "label": "new-mexico" },
+    { "name": "North Dakota", "code": "nd", "label": "north-dakota" },
+    { "name": "South Dakota", "code": "sd", "label": "south-dakota" },
+    { "name": "Texas",        "code": "tx", "label": "texas" },
+    { "name": "Wisconsin",    "code": "wi", "label": "wisconsin" }
+  ],
+  "locales": ["en", "fr"]
+}

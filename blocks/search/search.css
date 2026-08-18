@@ -1,0 +1,14 @@
+/* Authoring view (Universal Editor): the source rows are kept intact so authors
+   can add/edit/remove Search Source items. Present them as a simple readable list
+   rather than the raw two-column table cells. */
+.search.search-authoring > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 1ch;
+  padding: 4px 0;
+  border-bottom: 1px solid #dadada;
+}
+
+.search.search-authoring > div > div {
+  padding: 2px 0;
+}

@@ -214,5 +214,48 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "search",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Options",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Search Type",
+            "children": [
+              {
+                "name": "Minimal",
+                "value": "minimal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "search-source",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sourceUrl",
+        "label": "Query Index URL",
+        "description": "Full URL or root-relative path to a query-index.json feed (e.g. https://other-site.com/query-index.json or /en/query-index.json).",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sourceLabel",
+        "label": "Group Label",
+        "description": "Label shown as a section header above this source's results. Leave blank to show results inline without a header."
+      }
+    ]
   }
 ]
