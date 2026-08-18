@@ -75,6 +75,22 @@
               }
             }
           }
+        },
+        {
+          "title": "Header Section",
+          "id": "header-section",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/section",
+                "template": {
+                  "model": "Header section",
+                  "filter": "header-section",
+                  "name": "Header Section"
+                }
+              }
+            }
+          }
         }
       ]
     },
