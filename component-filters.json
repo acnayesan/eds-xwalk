@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "header-section"
     ]
   },
   {
@@ -16,6 +17,16 @@
       "cards",
       "columns",
       "fragment"
+    ]
+  },
+  {
+    "id": "header-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "search"
     ]
   },
   {
